@@ -1,1 +1,2 @@
-<button (click)="fireEvent()">send Event</button>
+<input #text type="text">
+<button (click)="fireEvent(text.value)">send Event</button>

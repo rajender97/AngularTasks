@@ -13,8 +13,8 @@ export class Component2Component implements OnInit {
 
   ngOnInit() {
   }
-   fireEvent(){
-     this.childEvent.emit('hey Rajender');
+   fireEvent(text){
+     this.childEvent.emit(text);
    }
 
 }
